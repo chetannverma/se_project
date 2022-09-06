@@ -1,0 +1,295 @@
+/* inner page css start */
+.inner-page { border-top:2px solid #ccc;  background-size:cover; background-repeat:no-repeat; background-position:0 0; margin-bottom:40px; }
+.inner-page-heading { padding:5% 0 7%; }
+.inner-page-heading .inner-banner-heading{ font-size:36px; color:#fff; line-height:1; margin-bottom:10px; }
+.inner-page-heading p { font-size:16px; color:#fff; line-height:1.6; }
+/* inner page css end */
+
+/* inner page background css start */
+.about-page-bg .inner-page { background-image:url(../images/inner-page-corporate-bg.jpg); }
+.service-sebi-page-bg .inner-page { background-image:url(../images/inner-page-sebi-bg.jpg); }
+.service-stockexchange-page-bg .inner-page { background-image:url(../images/inner-page-stockexchange-bg.jpg); }
+.service-capitalmarket-page-bg .inner-page { background-image:url(../images/inner-page-capitalmarket-bg.jpg); }
+.service-mca-page-bg .inner-page { background-image:url(../images/inner-page-mca-bg.jpg); }
+.service-corporate-page-bg .inner-page { background-image:url(../images/inner-page-corporate-bg.jpg); }
+.service-rbi-page-bg .inner-page { background-image:url(../images/inner-page-rbi-bg.jpg); }
+.service-advisory-page-bg .inner-page { background-image:url(../images/inner-page-advisory-bg.jpg); }
+.service-fundraising-page-bg .inner-page { background-image:url(../images/inner-page-fundraising-bg.jpg); }
+.service-investment-page-bg .inner-page { background-image:url(../images/inner-page-investment-bg.jpg); }
+.service-financial-page-bg .inner-page { background-image:url(../images/inner-page-financial-bg.jpg); }
+.client-page-bg .inner-page { background-image:url(../images/inner-page-client-bg.jpg); }
+.carrer-page-bg .inner-page { background-image:url(../images/inner-page-client-bg.jpg); }
+.contact-page-bg .inner-page { background-image:url(../images/inner-page-contact-bg.jpg); }
+.company-reg-page-bg .inner-page { background-image:url(../images/inner-page-company-reg.jpg); }
+/* inner page background css end */
+/* about css start */
+.inner-pages-side-img { margin-bottom:30px; }
+.inner-pages-side-img img { width:100%; }
+.inner-page-content { margin-bottom:40px; }
+.inner-page-content h1 { font:300 25px/1 'Roboto', sans-serif; margin-bottom:15px; }
+.inner-page-content h1:after { content:''; display:block; position:relative; bottom:-5px; width:60px; height:3px; background:#242E8D; }
+.inner-page-content p { font-size:16px; line-height:1.8; color:#; margin-bottom:15px; }
+.abt_team { background:#f9f9f9; border:1px solid #eee; margin:0 0 20px; padding:10px 15px; }
+.abt_team h3 { font:300 22px/1 'Roboto', sans-serif; color:#242E8D; margin-bottom:10px; }
+.abt_team h3:after { content:''; display:block; position:relative; bottom:-5px; width:90px; height:2px; background:#242E8D; }
+.abt_team p { font-size:13px; margin-bottom:0; }
+
+.inner-page-content ul { list-style:none; }
+.inner-page-content ul li { margin:0 0 12px 20px; text-indent:-9px; line-height:1.6; padding:2px 0; font-size:14px; color:#242E8D;  }
+.inner-page-content ul li:before { content:'\f101'; display:inline-block; font-family:fontawesome; padding:0 10px 0 0; }
+/* about css end */
+/* services page css start*/
+.service-page-content { margin-top:35px; }
+.service-page-content h4{ font:300 22px/1 'Roboto', sans-serif; color:#000; margin-bottom:15px; }
+.service-page-content ul .ul-sub { margin-top:10px; }
+.service-page-content ul .ul-sub li { list-style:circle; color:#; font-size:13px; margin-bottom:7px; }
+.inner-page-content ul .ul-sub li:before { content:''; }
+/* services page css end */
+
+/* client page css start */
+.client-logo { margin:0; padding:0; }
+.client-logo ul li { width:18%; float:left; padding:10px; border:1px dashed #aaa; margin:0 1% 2%; transition:all 0.3s ease; }
+.client-logo ul li:hover { border:1px solid #242E8D; border-left:1px solid #64b626; border-right:1px solid #64b626; }
+.client-logo ul li img { width:100%; height:auto; }
+
+/* client page css start */
+.investor { margin:0; padding:0; }
+.investor ul li { width:18%; float:left; padding:0px; margin:0 1% 2%; position:relative; }
+.investor ul li a { padding:10px; transition:all 0.3s ease; display:block; border:1px dashed #aaa; }
+.investor ul li a:hover { border:1px solid #242E8D; border-left:1px solid #64b626; border-right:1px solid #64b626; }
+.investor ul li a img { width:100%; height:auto; }
+
+
+.logo-tooltip {
+    position:absolute;
+    background:rgba(100,182,38,.8);
+    padding:5px 0;
+    width:90%;
+    top:-30px;
+    left:5%;
+    z-index:9999999999999;
+    border-radius:4px;
+    font-size:14px;
+    text-align:center;
+    display:none;
+
+}
+
+.logo-tooltip::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgba(100,182,38,.8);
+    position: absolute;
+    bottom:-12px;
+    left: 43%;
+}
+
+.investor ul li:hover .logo-tooltip{
+    display:block;
+
+}
+
+.client-logo ul li .logo-tooltip::after {
+       bottom:-11px;
+}
+
+
+.client-logo ul li:hover .logo-tooltip{
+    display:block;
+
+}
+
+
+
+
+/* logo hover effect css */
+.item_img{ margin: 0 0 30px; }
+.item_img img { -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; transform: scale(1); -o-transform: scale(1); -moz-transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); }
+.item_img { font-size: 0; line-height: 0; position: relative; }
+.item_img li { position: relative; display: inline-block; max-width: 100%;  }
+.item_img li:before, .item_img li:after { content: ""; opacity: 0; pointer-events: none; z-index: 3; position: absolute; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.item_img li:before { top: 0px; left: 0px; right: 100%; bottom: 100%; border-top: 3px solid #242E8D; border-left: 3px solid #64b626; }
+.item_img li:after { left: 100%; top: 100%; bottom: 0px; right: 0px; border-bottom: 3px solid #242E8D; border-right: 3px solid #64b626; }
+.item_img li:hover img { transform: scale(.9) !important; -o-transform: scale(.9) !important; -moz-transform: scale(.9) !important; -webkit-transform: scale(.9) !important;  -ms-transform: scale(.9) !important; }
+.item_img li:hover:before { opacity: 1; bottom: 0px; right: 0px; }
+.item_img li:hover:after { opacity: 1; top: 0px; left: 0px; }
+/* client page css end */
+
+/* servcies sidebar css start */
+.sidebar-services { background:#fff; margin-bottom:25px; }
+.sidebar-services .heading { background:#242E8D; padding:12px 10px; color:#fff; font-size:16px; }
+.sidebar-services ul li { padding:5px 10px 5px 15px; border:1px solid #ddd; margin-top:5px ; }
+.sidebar-services li.active { background:#f0f0f0; }
+.sidebar-services ul li:before { content:'\f105'; color:#242E8D; font-family:fontawesome; position:relative; left:-7px; transition:all 0.3s ease; }
+.sidebar-services ul li:hover:before { left:-3px; }
+.sidebar-services ul li a { padding:8px 0; display:inline-block; font-size:14px; }
+/*  servcies sidebar css start */
+
+/* carrer us page css */
+.big-form { box-shadow:0px 6px 7px -2px rgba(0, 0, 0, 0.8); background:#242E8D; margin-bottom:35px; padding:20px 25px; border-bottom:1px solid #00a5c0; }
+.big-form label { color:#fff; font-weight:400; }
+.big-form input[type="file"] { color:#fff; }
+.big-form .form-group { margin-bottom:20px; }
+.big-form button[type=submit] { border-radius:0; background:#242E8D; border:1px solid #00a1bc; color:#fff; transition:all 0.3s ease; }
+.big-form button[type=submit]:hover { background:#00a1bc; color:#fff;}
+/* carrer page css end */
+
+/* contact us page css */
+.contact-page-form {  }
+.contact-page-form h1{ font:300 26px/1 'Roboto', sans-serif; border-bottom:1px solid #65b727; color:#333; display:inline-block; padding:0 70px 6px 0px; }
+.contact-page-form h1:after{ content:''; display:block; width:100px; height:3px; background:#65b727; position:relative; bottom:-8px; left:10px; }
+.contact-page-form h2{ font:300 26px/1 'Roboto', sans-serif; border-bottom:1px solid #65b727; color:#333; display:inline-block; padding:0 70px 6px 0px; }
+.contact-page-form h2:after{ content:''; display:block; width:100px; height:3px; background:#65b727; position:relative; bottom:-8px; left:10px; }
+.contact-page .fieldset { border:1px solid #ddd; margin:40px 0 0; padding:22px 25px 12px 33px; }
+.contact-page .fieldset .legend { background:#fff; border:1px solid #ddd; color:#444443; float:left; font-size:13px; font-weight:normal; margin:-33px 0 0 -10px; padding:5px 18px;  position:relative; top:-3px; }
+.form-inner ul { margin-top:10px; }
+.form-inner ul li { margin:0 0 25px; }
+.form-inner ul li label { color:#242E8D; margin-bottom:10px; }
+.form-inner ul li .field{ width:49%; float:left; }
+.form-inner ul li .field .input-box input[type=text], .form-inner ul li .field .input-box input[type=email], .form-inner ul li .field .input-box input[type=tel] { width:100%; height:40px; background:#fff; border:1px solid #ccc; padding:0 7px; }
+.form-inner ul li .field.tas { margin-left:2%; }
+.form-inner ul li.wide .input-box textarea { width:100%; background:#fff; border:1px solid #ccc; padding:7px; min-height:163px; }
+.form-inner ul li input[type=submit] { width:150px; height:42px; border:1px solid #242E8D; background:#242E8D; text-transform:uppercase; font-weight:700; font-size:16px; border-radius:0; color:#fff; font-size:16px; border:none; transition:all 0.3s ease; }
+.form-inner ul li input[type=submit]:hover { background:#fff; color:#242E8D; border:1px solid #242E8D; }
+.form-inner ul li label.required em { color:#eb340a; font-style:normal; right:-8px; top:0; }
+.form-inner ul li p.required { color:#eb340a; font-size:11px; position:absolute; right:0; }
+.contact-page-info { background:#242E8D; padding:15px 20px 5px; }
+.more-info { margin-top:15px; }
+.more-info h5 { color:#fff; font-size:20px; margin-bottom:14px; }
+.more-info .info-deta { font:400 18px 'Roboto', sans-serif; color:#fff; margin-bottom:8px; }
+.more-info p { color:#eee; font-size:14px; margin-bottom:22px; }
+.contact-page-info .info-deta .fa { margin-right:3px; }
+.contact-page-info h2{ font:300 26px/1 'Roboto', sans-serif; border-bottom:1px solid #fff; color:#fff; display:inline-block; padding:0 70px 6px 0px; }
+.contact-page-info h2:after { content:''; display:block; width:100px; height:3px; background:#fff; position:relative; bottom:-8px; left:10px; }
+.map { margin-bottom:30px; margin-top:30px; height:250px; }
+.map iframe { border:1px solid #ccc !important; }
+/* contact us page css end */
+
+.animated {
+ 	-webkit-animation-name: bounceIn;
+ 	-webkit-animation-duration: 3s;
+ 	-webkit-animation-iteration-count: infinite;
+ 	-webkit-animation-timing-function: ease-out;
+ 	-webkit-animation-fill-mode: forwards;
+
+ 	animation-name: bounceIn;
+ 	animation-duration: 3s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: ease-out;
+ 	animation-fill-mode: forwards;
+}
+/* FadeIn animation */
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+	100% {opacity: 1;}
+}
+@keyframes fadeOut {
+    0% {opacity: 1;}
+	50% {opacity: 0.2;}
+    100% {opacity: 1;}
+}
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+/* company registratio css start */
+.com-reg { background-attachment:fixed; background-size:cover; padding-top:10px; background-repeat:no-repeat; }
+.com-reg-heading h2 { color:#000; display:inline-block; background:url(../images/reg-com-bg.jpg) center bottom no-repeat; padding:0 30px 7px; margin-bottom:20px; }
+.com-reg-heading h2:after{ content:''; display:block; width:100px; height:3px; background:#65b727; position:relative; bottom:-8px; margin:0 auto; }
+.com-reg-heading p { color:#fff; font-size:15px; color:#000; line-height:1.8; margin-bottom:60px; }
+
+.com-reg-box { margin-bottom:30px; background:#fafafa; border:1px solid #242E8D; padding:15px }
+.com-reg-left-img { overflow:hidden; width:100%; }
+.com-reg-left-img a { display:block; }
+.com-reg-box .com-reg-left-img img { transition:0.3s ease; width:100%; }
+.com-reg-cp { padding-right:0px; }
+.com-reg-cp h5 { padding-bottom:7px; margin-bottom:5px; color:#242E8D; line-height:1; font-weight:300; font-size:20px; }
+.com-reg-cp h5::after { content:''; display:block; background:#64b727; height:3px; width:60px; position:relative; bottom:-7px; transition:0.3s ease; }
+.com-reg-cp p { font:400 13px/22px 'Open Sans', sans-serif; color:#505050; min-height:195px; }
+.com-reg-cp a.read-more { font:400 12px 'Open Sans', sans-serif; color:#242E8D; transition:all 0.3s ease; display:inline-block; }
+.com-reg-cp a.read-more:hover { color:#242E8D; }
+.com-reg-cp a.read-more .fa-chevron-right { transition:0.3s ease; }
+.com-reg-cp a.read-more:hover .fa-chevron-right { padding-left:5px; }
+.com-reg-box:hover .com-reg-cp h5:after { background:#242E8D; width:80px; }
+.com-reg-box:hover .com-reg-left-img img { transform:scale(1.1); }
+
+/* company registratio css end */
+
+.table-data {
+    margin-bottom:20px;        
+}
+.table-data .table tr td:first-child {
+    width:50%;
+    text-align:right;
+    vertical-align:middle;
+}
+.table-data .table tr td {
+    padding:8px 15px;
+    border-color:#000;
+}
+
+@media only screen and (max-width: 1199px) {
+	.com-reg-left-img { margin-bottom:20px;	}
+	.com-reg-box .row .col-lg-6 { clear:both; }
+	.com-reg-cp h5 { margin-bottom:10px; }
+	.com-reg-cp p { min-height:140px; }
+}
+@media only screen and (max-width: 991px) {
+	.client-logo ul li { width:24%; margin:0 0.5% 1%; }
+	.inner-page-content h1 { font-size:24px; }
+	.inner-page-content p { font-size:14px; }
+	.abt_team h3 { font-size:20px; }
+	.abt_team p { font-size:13px; }
+	/* contact page */
+	.inner-page { margin-bottom:25px; }
+	.inner-page-heading .inner-banner-heading { font-size:26px; }
+	.inner-page-heading p { font-size:14px; line-height:1.6; }
+	.contact-info { margin-bottom:25px; }
+	.contact-page-form h1 { font-size:24px; }
+	.contact-page-form h2 { font-size:24px; }
+	.form-inner ul li.wide .input-box textarea { min-height:100px; }
+	.contact-page-info h2 { font-size:22px; }
+	.more-info h5 { font-size:18px; }
+	.more-info .info-deta { font-size:16px; }
+	.map { height:200px; }
+
+	.com-reg-heading h2 { font-size:26px; }
+	.com-reg-cp a.read-more { margin-top:15px; }
+}
+@media only screen and (max-width: 767px) {
+	.client-logo ul li { width:32.333%; }
+	/* contact page */
+	.inner-page-heading .inner-banner-heading { font-size:24px; }
+	.map { height:170px; }
+
+	.com-reg-cp p { min-height:inherit; }
+	.com-reg-cp a.read-more { margin-top:20px; }
+}
+@media only screen and (max-width: 639px) {
+	.inner-page-content h1 { font-size:20px; }
+	.inner-page-content p { font-size:13px; }
+	.abt_team h3 { font-size:19px; }
+	.more-info p { line-height:1.5; }
+	.client-logo ul li { width:46%; margin:0 2% 4%; }
+	.com-reg-heading h2 { font-size:22px; padding:0 15px 7px; }
+}
+@media only screen and (max-width: 479px) {
+	.form-inner ul li .field .input-box input[type="text"], .form-inner ul li .field .input-box input[type="email"], .form-inner ul li .field .input-box input[type="tel"] { height:34px; }
+	.form-inner ul li { margin-bottom:0px; }
+	.form-inner ul li label { margin-bottom:5px; }
+	.form-inner ul li .field { float:none; width:100%; margin-bottom:16px; }
+	.form-inner ul li .field.tas { margin-left:0; }
+	.form-inner ul li input[type="submit"] { width:120px; height:36px; font-weight:400; font-size:14px; margin-top:16px; }
+	.form-inner ul li p.required { top:25px; }
+	.contact-page .fieldset { padding:22px 18px 12px 23px; }
+	.map { height:150px; }
+	.client-logo ul li { width:46%; margin:0 2% 4%; }
+}
+@media only screen and (max-width: 359px) {
+	.client-logo ul li { width:80%; margin:0 10% 20px; }
+}
